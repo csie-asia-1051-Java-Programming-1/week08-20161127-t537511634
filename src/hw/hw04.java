@@ -13,89 +13,192 @@ public class hw04 {
 		// TODO Auto-generated method stub
 		Scanner scn = new Scanner(System.in);
 		String n = scn.next();
-		char v1[]=n.toCharArray();
+		char v1[] = n.toCharArray();
 		num.out(v1);
 
-		
 	}
 
 }
-class num{
-	public static void out(char v1[]){
-		for(int i =0;i<v1.length;i++){
-			switch(v1[i]){
-			case'1':
-					System.out.println("     *");
-					System.out.println("     *");
-					System.out.println("     *");
-					System.out.println("     *");
-					System.out.println("     *");
-				
-				break;
-			case'2':
-				System.out.println(" *****");
-				System.out.println("     *");
-				System.out.println(" *****");
-				System.out.println(" *    ");
-				System.out.println(" *****");		
-				break;
-			case'3':
-				System.out.println(" *****");
-				System.out.println("     *");
-				System.out.println(" *****");
-				System.out.println("     *");
-				System.out.println(" *****");
-				break;
-			case'4':
-				System.out.println(" *   *");
-				System.out.println(" *   *");
-				System.out.println(" *****");
-				System.out.println("     *");
-				System.out.println("     *");
-				break;
-			case'5':
-				System.out.println(" *****");
-				System.out.println(" *    ");
-				System.out.println(" *****");
-				System.out.println("     *");
-				System.out.println(" *****");
-				break;
-			case'6':
-				System.out.println(" *****");
-				System.out.println(" *    ");
-				System.out.println(" *****");
-				System.out.println(" *   *");
-				System.out.println(" *****");
-				break;
-			case'7':
-				System.out.println(" *****");
-				System.out.println("     *");
-				System.out.println("     *");
-				System.out.println("     *");
-				System.out.println("     *");
-				break;
-			case'8':
-				System.out.println(" *****");
-				System.out.println(" *   *");
-				System.out.println(" *****");
-				System.out.println(" *   *");
-				System.out.println(" *****");
-				break;
-			case'9':
-				System.out.println(" *****");
-				System.out.println(" *   *");
-				System.out.println(" *****");
-				System.out.println("     *");
-				System.out.println("     *");
-				break;
-			case'0':
-				System.out.println(" *****");
-				System.out.println(" *   *");
-				System.out.println(" *   *");
-				System.out.println(" *   *");
-				System.out.println(" *****");
-				break;
+
+class num {
+	public static void out(char v1[]) {
+		for (int j = 0; j < 5; j++) {
+			for (int i = 0; i < v1.length; i++) {
+				switch (v1[i]) {
+				case '1':
+					if (j == 0) {
+						System.out.print("     *");
+					}
+					if (j == 1) {
+						System.out.print("     *");
+					}
+					if (j == 2) {
+						System.out.print("     *");
+					}
+					if (j == 3) {
+						System.out.print("     *");
+					}
+					if (j == 4) {
+						System.out.print("     *");
+					}
+
+					break;
+				case '2':
+					if (j == 0) {
+						System.out.print(" *****");
+					}
+					if (j == 1) {
+						System.out.print("     *");
+					}
+					if (j == 2) {
+						System.out.print(" *****");
+					}
+					if (j == 3) {
+						System.out.print(" *    ");
+					}
+					if (j == 4) {
+						System.out.print(" *****");
+					}
+					break;
+				case '3':
+					if (j == 0) {
+						System.out.print(" *****");
+					}
+					if (j == 1) {
+						System.out.print("     *");
+					}
+					if (j == 2) {
+						System.out.print(" *****");
+					}
+					if (j == 3) {
+						System.out.print("     *");
+					}
+					if (j == 4) {
+						System.out.print(" *****");
+					}
+					break;
+				case '4':
+					if (j == 0) {
+						System.out.print(" *   *");
+					}
+					if (j == 1) {
+						System.out.print(" *   *");
+					}
+					if (j == 2) {
+						System.out.print(" *****");
+					}
+					if (j == 3) {
+						System.out.print("     *");
+					}
+					if (j == 4) {
+						System.out.print("     *");
+					}
+					break;
+				case '5':
+					if (j == 0) {
+						System.out.print(" *****");
+					}
+					if (j == 1) {
+						System.out.print(" *    ");
+					}
+					if (j == 2) {
+						System.out.print(" *****");
+					}
+					if (j == 3) {
+						System.out.print("     *");
+					}
+					if (j == 4) {
+						System.out.print(" *****");
+					}
+					break;
+				case '6':
+					if (j == 0) {
+						System.out.print(" *****");
+					}
+					if (j == 1) {
+						System.out.print(" *    ");
+					}
+					if (j == 2) {
+						System.out.print(" *****");
+					}
+					if (j == 3) {
+						System.out.print(" *   *");
+					}
+					if (j == 4) {
+						System.out.print(" *****");
+					}
+					break;
+				case '7':
+					if (j == 0) {
+						System.out.print(" *****");
+					}
+					if (j == 1) {
+						System.out.print("     *");
+					}
+					if (j == 2) {
+						System.out.print("     *");
+					}
+					if (j == 3) {
+						System.out.print("     *");
+					}
+					if (j == 4) {
+						System.out.print("     *");
+					}
+					break;
+				case '8':
+					if (j == 0) {
+						System.out.print(" *****");
+					}
+					if (j == 1) {
+						System.out.print(" *   *");
+					}
+					if (j == 2) {
+						System.out.print(" *****");
+					}
+					if (j == 3) {
+						System.out.print(" *   *");
+					}
+					if (j == 4) {
+						System.out.print(" *****");
+					}
+					break;
+				case '9':
+					if (j == 0) {
+						System.out.print(" *****");
+					}
+					if (j == 1) {
+						System.out.print(" *   *");
+					}
+					if (j == 2) {
+						System.out.print(" *****");
+					}
+					if (j == 3) {
+						System.out.print("     *");
+					}
+					if (j == 4) {
+						System.out.print("     *");
+					}
+					break;
+				case '0':
+					if (j == 0) {
+						System.out.print(" *****");
+					}
+					if (j == 1) {
+						System.out.print(" *   *");
+					}
+					if (j == 2) {
+						System.out.print(" *   *");
+					}
+					if (j == 3) {
+						System.out.print(" *   *");
+					}
+					if (j == 4) {
+						System.out.print(" *****");
+					}
+					break;
+				}
 			}
+			System.out.println();
 		}
 	}
 }
